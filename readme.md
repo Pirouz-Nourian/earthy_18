@@ -54,7 +54,7 @@ tackled via computation.
     <tbody>
         <tr>
             <td>
-                <a href="">Earth Institute</a>
+                <a href="https://github.com/shervinazadi/earthy_18/tree/master/Earth_Institute">Earth Institute</a>
             </td>
             <td>
                 Ameya Thakur<br>
@@ -66,7 +66,7 @@ tackled via computation.
         </tr>
         <tr>
             <td>
-                <a href="">Medical Center</a>
+                <a href="https://github.com/shervinazadi/earthy_18/tree/master/Medical_Center">Medical Center</a>
             </td>
             <td>
                 Benjamin Yong Zhen Hui <br>
@@ -78,7 +78,7 @@ tackled via computation.
         </tr>
         <tr>
             <td>
-                <a href="">Skill Development Center</a>
+                <a href="https://github.com/shervinazadi/earthy_18/tree/master/Skill_Development_Center">Skill Development Center</a>
             </td>
             <td>
                 Ammar Taher <br>
@@ -90,7 +90,7 @@ tackled via computation.
         </tr>
         <tr>
             <td>
-                <a href="">Terrabayt</a>
+                <a href="https://github.com/shervinazadi/earthy_18/tree/master/Terrabayt">Terrabayt</a>
             </td>
             <td>
                 Anna Tsagkalou<br>
