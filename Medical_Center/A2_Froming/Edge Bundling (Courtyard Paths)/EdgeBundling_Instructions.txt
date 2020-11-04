@@ -1,0 +1,7 @@
+This folder contains 1 GH file. Use main Rhino file (Zaatari Women and Children Med Centre.3dm) to get curves on layer: Path edges.
+
+Description:
+This script uses force-directed edge bundling algorithm to create organic geometry pathways in the main courtyard of the bulding. The bundled curves are formed into paths by using metaball.
+
+Plugins needed:
+Kangaroo2

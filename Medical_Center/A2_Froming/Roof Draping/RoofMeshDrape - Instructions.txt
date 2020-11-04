@@ -1,0 +1,12 @@
+This folder contains 1 GH file. Use Rhino file (Roof Form-Finding.3dm)
+
+Description:
+This script uses Kangaroo2 solid collision to drape a flat mesh over the roof forms to create a more smooth and homogenous roof shape. Two inputs from the Rhino are needed: the mesh outline and the solids to collide with (marked in red). The test section is off to the right hand side of the model and is a small section of the roof. Full roof denotes the roofs near the front of the building. Full roof 1 is the left portion while Full roof 2 is the right portion.
+
+Warning: it is not recommended to increase the load as this may cause the mesh to miss colliding with the solid.
+
+After the solver is a data dam. When the solution is sufficiently converged, pause the solver and activate the data dam to create a NURBS surface from the mesh. 
+
+Plugins needed:
+Kangaroo2
+Weaverbird

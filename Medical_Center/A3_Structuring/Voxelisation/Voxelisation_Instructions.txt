@@ -1,0 +1,7 @@
+This folder contains one GH file. Use main Rhino file (Zaatari Women and Children Med Centre.3dm). For model input meshes on layer: voxelised model. FOr full education building input meshes on layer: education. Note: both these layer contain 2 meshes, they both need to be input.
+
+Description:
+This script voxelises a mesh with bricks based on a given resolution and a tolerance distance. THe tolerance determines how close the voxel must be to the mesh for the script to place a brick. Another python component in the script allows for the display of each layer of voxels plus the outline of the layer below. It also contains an algorithm for creating a 2D voxel grid to guide construction. Note: the script may take up to 1.5 minutes to calculate when inputting the full mesh.
+
+Plugins needed:
+none

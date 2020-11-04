@@ -1,0 +1,14 @@
+This folder contains 3 GH files. Use Rhino file (Roof Form-Finding.3dm)
+
+Description - From Flat:
+This script uses Kangaroo2 to form-find a relaxed roof based on a flat mesh with chosen anchor points to create valleys.
+
+Description - From Triangle:
+This script uses Kangaroo2 to relax the triangular forms into smooth shapes.
+
+Description - Laplacian smoothing:
+This script uses the smoothing component in Kangaroo2 to relax the triangular forms into smooth shapes.
+
+Plugins needed:
+Kangaroo2
+Weaverbird

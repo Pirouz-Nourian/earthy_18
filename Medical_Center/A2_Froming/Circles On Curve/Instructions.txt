@@ -1,0 +1,9 @@
+This folder contains 1 Rhino file and 1 grasshopper script.
+
+- The Rhino file contains 1 curve.
+
+- The GH file draws circles of controlled random radii along a curve. Distance between the circles can be set.
+
+Plugins required: GHPython.
+
+The GH-definition has instructions included.

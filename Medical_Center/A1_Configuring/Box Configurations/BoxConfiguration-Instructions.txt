@@ -1,0 +1,7 @@
+This folder contains one Grasshopper file. No Rhino file needed.
+
+Description:
+This script allows you to make configurations with the different program spaces based on a module size. The size can be adjusted in multiples of the module. The boxes can then be moved around and placed where you want. The boxes will also snap to adjacent boxes depending on which boxes points ('Pts' output) are input into it ('attach_Pts' input). It can also output the internal lines of the modules that make up the box, the points of the polyline, as well as, center point, and area.
+
+Plugins needed:
+GhPython

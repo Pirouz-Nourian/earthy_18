@@ -1,0 +1,7 @@
+This folder contains 1 Rhino file and 1 grasshopper script.
+
+- The Rhino file contains 1 curve.
+
+- The GH file creates a line from the highest point of the curve to the WorldXYPlane. A Line is also used as output, for Linear Dimensioning.
+
+Plugins required: Pufferfish.

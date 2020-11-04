@@ -1,0 +1,23 @@
+The folder contains one Grasshopper (GH) file, one python file (.py) and one Pdf file.
+
+The script places bricks in a dome-surface. Suggestions for future work include the alternating pattern for the bricks.
+In order to place bricks in a vault, the isocurves can be used, as it is a single-curvature surface. However, for the dome, which 
+has double curvature, another method is used (GH script):
+1. Evaluate the dome surface at a” lower” point and the center point.
+2. Create a line with these two points.
+3. Project the line in the dome surface.
+4. Divide the line with division distance being the height of the brick (horCrvs).
+
+
+The GH python definition has instructions included. For the GH python script, the parameters are the following:
+
+   Inputs:
+* srf: The reparametrized surface of the dome (surface).
+* horCrvs: Horizontal curves on the surface, with the same distance between them (list of curves).
+* brick: The Brep of the brick to be used (Brep).
+* brk_ht: The height of the brick (float).
+* brk_len: The length of the brick (float).
+* y_spacing: The space between the bricks in y-axis(float).
+* x_spacing: The space between the bricks in x-axis(float).
+    Output:
+* a: Bricks (list).

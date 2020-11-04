@@ -1,0 +1,5 @@
+INSTRUCTIONS
+
+This is a collection of brick pattern scripts, creating straight walls with different brick bonds.
+
+Rhino file not needed.

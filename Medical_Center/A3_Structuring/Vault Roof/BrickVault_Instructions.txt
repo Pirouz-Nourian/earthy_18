@@ -1,0 +1,9 @@
+This folder contains 1 GH file. No Rhino file needed.
+
+Desctiption:
+This script has 2 python codes;
+1 - a script to place bricks on a vault shape in a stretcher bond.
+2 - a script that makes visual lines and outputs parameters for the construction method. THe method uses two strings represented by lines that form a triangle shape. One being the hypotenuse, one being the vertical. THe script outputs 2 numbers for the length of each line by brick layer. Using that one can place points and then interpolate a curve to guide where bricks can be placed to form the vault.
+
+Plugins needed:
+GhPython

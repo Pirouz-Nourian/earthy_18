@@ -1,0 +1,11 @@
+This folder contains 1 Rhino example file and 1 grasshopper script.
+
+- The Rhino file has a surface and 2 points.
+
+- The GH file lays the bricks.
+
+The GH file lays bricks along a surface, with gaps in between. Brick geometry and gap amount can be set.
+
+Plugins required: GHPython.
+
+The GH-definitions have instructions included.

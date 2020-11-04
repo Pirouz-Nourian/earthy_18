@@ -1,0 +1,9 @@
+INSTRUCTIONS
+
+This algorithm is based on the concept of lookup tables.
+Different roof typologies are created and inserted in a list.
+A roof configuration is recorded in a 2D matrix (Excel) using the indices of the roof typologies in the roof list:
+each roof type is represented by its index.
+Then, a python script places the roof units on a grid according to the given 2D matrix.
+
+Rhino file not needed. Lunchbox plugin used for its Excel Reader component.

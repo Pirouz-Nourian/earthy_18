@@ -1,0 +1,10 @@
+This folder contains 2 different grasshopper definitions.
+
+- One for the form-finding and structural analysis of the ward module
+- One for the form-finding and structural analysis of the dome module
+
+Both GH-definitions correspond to the StructuralAnalysis Rhino file.
+
+The process/method how the GH-definition is build up is explained in the flowcharts.
+These flowcharts can be found in the PDF files with corresponding names. 
+The GH-definitions have instructions included

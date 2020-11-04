@@ -1,0 +1,9 @@
+This folder contains 1 Rhino file and 1 grasshopper script.
+
+- The Rhino file contains the courtyard model and some curves and points used as inputs for the GH file.
+
+- The GH file creates the education sector by means of parametric design to establish a starting mesh, and then putting this mesh through a dynamic mesh relaxation process to attain a desirable architectural form for the education sector. 
+
+This file serves mostly as an example of how dynamic mesh relaxation can be controlled to achieve certain forms with structural feasibility.
+
+Plugins required: Pufferfish, Karamba, Kangaroo 2.

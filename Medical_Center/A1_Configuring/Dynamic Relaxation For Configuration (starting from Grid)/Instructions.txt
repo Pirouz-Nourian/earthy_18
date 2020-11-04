@@ -1,0 +1,13 @@
+This folder contains 1 Excel Sheet and 1 grasshopper script.
+
+- The Excel sheet is used for establshing the floor areas of each programme in the building, and the degree of importance of connectivity between each of them.
+
+- The GH file reads the excel file and generates a possible simplified layout for the building corresponding to the floor areas and connections stated in teh Excel sheet. 
+
+No Rhino file is needed.
+
+The GH file creates a starting grid, in which the programmes are first randomly placed (using a controllable seed variable). The programmes are circles. Kangaroo is used to pull the programmes together, using strengths depending on the connectivity importance.
+
+Plugins required: Kangaroo 1
+
+The GH-definitions have instructions included.

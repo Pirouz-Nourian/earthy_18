@@ -1,0 +1,7 @@
+INSTRUCTIONS
+
+The script is a tool for making a REL chart of triangular shape that is equivalent to a symmetrical REL 2D matrix.
+It is used for the creation of a graphically better representation of the matrix, with symbols replacing the connection factors (ranging from 0-1).
+Instead of using Illustrator and sacrifising a lot of time, one can use this tool by just providing an Excel sheet as an input and modifying the input parameters.
+
+No Rhino file needed. Lunchbox plugin used for its Excel Reader component.

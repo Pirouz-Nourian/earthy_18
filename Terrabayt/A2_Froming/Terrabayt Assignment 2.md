@@ -1,0 +1,15 @@
+# Terrabayt
+## Concept
+The current housing layout of the Al Za’atari refugee camp defined by the UNHCR does not fit the cultural needs of its inhabitants. This is visible in the fact that the inhabitants are already modifying the UNHCR layout to their own demands: prefab units are moved to form courtyards and semi-open spaces and bathrooms are added to the units.  We propose a computational model that generates housing typologies more in line with the needs of its inhabitants; the existing structures are combined with earthy additions to form a new typology based on traditional Syrian ones. Hence the name Terra (earth) Bayt (house).
+The existing structures and materials are utilized to minimize waste, allowing the camp inhabitants to remain in their units during construction. As the inhabitants build the earthy extensions, their sense of ownership, and self-reliance will inevitably increase. This will allow for a transition from a state of “refugee” to that of a “homeowner”.
+	 The resulting layout helps the inhabitants  experience the housing typology they are more familiar with. This will also facilitate greater social interaction, and the integration of other amenities such as water collection, sanitation, waste collection and expansion of houses.	 
+
+![Concept Poster](https://gitlab.com/OFFSHIFT/Earthy/blob/Terrabayt/Assignment2_2018_Forming/poster1_copy.jpg "Concept Poster")
+
+## Process
+The current layout of the block will be analyzed and caravans belonging together will be identified. Afterwards, the central courtyard will be determined and the caravans rearranged around that courtyard. Earthy additions will finally be added based on the needs of the inhabitants.
+The block layout was converted to a CAD environment manually, after which the caravan curves were converted to a  surface and their center point found. Afterwards, the center points were attracted to nodes in a 1x1m grid covering the whole block. The axis direction was based on the principle vectors of the block, so all courtyards would align orthogonally to it. The courtyard boundary was then treated as a string of code (list) with the caravans placed at the corner points due to its openings. In the basic form, 1’s will define an adjacent space to the edge, while 0’s will define a vacant space. These vacant spaces will then be filled with programmatic elements that are defined from traditional Syrian housing and number of inhabitants. Their size is prescribed within the code and placement will be based on a set of rules to see which ones have priority (such as orientation or adjacency). Finally, the 3D geometry will be added to the spaces. This will be based on an architectural vocabulary also in line with traditional architecture.
+
+![Flowchart](https://gitlab.com/OFFSHIFT/Earthy/blob/Terrabayt/Assignment2_2018_Forming/A2_design_flowchart.jpg "Flowchart")
+
+![Pseudocode](https://gitlab.com/OFFSHIFT/Earthy/blob/Terrabayt/Assignment2_2018_Forming/Pseudocode.jpg "Pseudocode")

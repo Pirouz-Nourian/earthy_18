@@ -1,0 +1,14 @@
+This folder contains 1 Rhino file and 1 grasshopper script.
+
+- The Rhino file contains 1 surface and 5 points.
+
+- The GH file draws approximate thrust lines from points on a surface depending on the curvatures along the surface.
+
+Outputs:
+- A vector of the thrust direction at the input point.
+- Thrust line.
+- Length of each thrust line.
+
+Plugins required: GHPython.
+
+The GH-definitions have instructions included.

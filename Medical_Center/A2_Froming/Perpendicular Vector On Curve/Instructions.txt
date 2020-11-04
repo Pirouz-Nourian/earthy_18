@@ -1,0 +1,9 @@
+This folder contains 1 Rhino file and 1 grasshopper script.
+
+- The Rhino file contains 1 curve and 1 point.
+
+- The GH file creates a Vector that is perpendicular to the curve at a point within the curve itself.
+
+Plugins required: None.
+
+The GH-definitions have instructions included.

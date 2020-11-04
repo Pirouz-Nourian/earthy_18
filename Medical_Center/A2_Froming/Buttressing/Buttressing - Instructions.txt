@@ -1,0 +1,7 @@
+This folder contains 2 GH files. Use Rhino file (Zaatari Women and Children Med Centre.3dm)
+
+Description:
+These scripts create buttressing as well as roof valeys for water drainange for the vault and dome modules. It uses curves in the RHino file on the layer form-finding. Using Elefront the script can read the original block without buttressing, add the geometry, and bake it back into the file overwriting older instances. It is not necessary to have Elefront for the script to work.
+
+Plugins needed:
+Elefront

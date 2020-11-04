@@ -1,0 +1,3 @@
+This file contains our research on brick patterns.
+The patterns modelled here can be found on Koen Mulder's book, "Het Zinderend Oppervlak".
+The most common brick types and positions are also recorded; different colours represent different brick types.

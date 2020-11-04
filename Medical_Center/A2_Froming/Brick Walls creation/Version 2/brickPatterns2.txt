@@ -1,0 +1,11 @@
+INSTRUCTIONS
+
+The script serves as a tool to create the particular brick pattern (English bond with the chosen corner solutions) on any given wall based on certain properties.
+These properties are based on our team's analysis of the ward modules. For example, we have two values for wall thicknesses: 0.40 and 0.20m.
+Other parameters include the shape, size and existence of openings on the walls.
+
+Because of time constraints, this script solves the bottom part of the short module walls (not the catenary at the top).
+The long walls will be created in a similar manner.
+The openings creation part is not included in this version of the script.
+
+Rhino file not needed. Elefront plugin used for its Bake Objects component.

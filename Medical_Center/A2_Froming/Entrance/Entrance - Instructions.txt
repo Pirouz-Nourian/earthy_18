@@ -1,0 +1,7 @@
+This folder contains 1 GH files. Use Rhino file (Zaatari Women and Children Med Centre.3dm)
+
+Description:
+This script forms the entrance structure of the building by creating a series of catenary vaults, joinging to form a cross-vaulting on the interior, and then forming the exterior walls. Using elefront you can bake the geometry and update previous instances. It is not necessary to have Elefront for the script to work.
+
+Plugins needed:
+Elefront

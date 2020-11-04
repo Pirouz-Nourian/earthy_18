@@ -1,0 +1,9 @@
+INSTRUCTIONS
+
+The algorithm attempts to bridge the gap between a bubble diagram and an actual floor plan layout.
+Circles corresponding to spaces start from a polar arrangement and are relaxed (using Kangaroo) based on connections recorded in a REL chart.
+Stronger connections are represented by stronger attraction forces, whereas connections that are not desirable are represented by repulsion forces.
+The circle radii are proportional to the space areas.
+
+No Rhino file needed.
+Excel file and Kangaroo plugin needed. Lunchbox plugin is also used for its Excel reader component.

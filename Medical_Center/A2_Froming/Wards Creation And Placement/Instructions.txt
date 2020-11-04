@@ -1,0 +1,35 @@
+The folder contains one Rhino file, two Grasshopper (GH) files, two python files (.py) and two Pdf files.
+
+The medical center consists of 3 different types of wards, in order to accommodate different needs: 1.private rooms, 
+2. semi-private rooms (consisting of 2 or 3 rooms), 3. shared rooms (consisting of 4 or 6 rooms).Because of the large number 
+of wards, a script was developed, in order to create and place automatically the wards. Due to limitation of time, two scripts 
+were developed for two types of wards: private and semi–private rooms(2 rooms: left and right). The script for the semi-private 
+rooms is based on the script for the private rooms. For that case, a counter is used, in order to separate the left from the 
+right room. Suggestions for future work include the development of scripts for the rest of the types of wards, following the 
+same logic as the semi-private rooms.
+
+- The Rhino file contains the floor plan of the medical center. Each closed curved of the plan represents a function. 
+- The GH file, named “private_ward” creates and places the ward module for the private rooms (3x6m).
+- The GH file, named “semi-private_ward” creates and places the ward module for the semi - private rooms (2 rooms). 
+  That typology consists of two rooms (left and right room), 3x6m each.
+- The Pdf files show the flow-chart for those scripts and the floor plan of the medical center.
+
+Each room consists of five walls and the floor. The roof of the rooms will be added later, as that is the outcome of the dynamic relaxation.
+More specifically, the walls in the long axes (left and right wall) are load bearing, and therefore have a thickness of 40cm. 
+The front wall is 20cm thick. The back wall is 20cm thick if it is an interior wall, and 40cm if it is an exterior wall. 
+The interior wall is 40cm thick for thermal reasons (thermal inertia and insulation). Also, the curves for the openings: 
+opening_01, opening_2, opening_03 is the outcome of the structural analysis. 
+
+   Inputs:
+* opening_01: The curve for the opening for the right and left wall (curve)
+* opening_02: The curve for the opening for the front and interior wall (curve)
+* opening_03: The curve for the opening (window) for the interior wall (curve)
+* wards_crvs: The curves (plan view) for the semi - private rooms (list of curves)
+* courtyards_crvs: The curves (plan view) for the courtyards (list of curves)
+* labs_crv: The curves (plan view) of the laboratory department (curve)
+* nursery_crv: The curves (plan view) of the nursery department (curve)
+* boundary_crv: The outline of the floor plan (curve)
+* backOpeningsNumber: The number of the openings on the back wall (int)
+* backOpeningsSize: The size of the openings on the back wall (float)
+    Output:
+* modularConfig: The modules (Brep)

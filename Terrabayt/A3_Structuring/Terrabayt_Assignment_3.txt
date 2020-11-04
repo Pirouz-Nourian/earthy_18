@@ -1,0 +1,111 @@
+# Terrabayt Assignment 3: Structuring
+For our Wiki page, see here: https://gitlab.com/thegrozni/Terrabayt/wikis/home
+
+## Concept
+Terrabayt is a computational model that generates housing typologies more in line with the needs of its inhabitants by combining existing caravans with earthy additions.
+
+_1: Parts of the structure that we analyzed_
+![Terrabayts Structural Model](uploads/8fdb3cf30fdc328d69970a9a97f5f467/Image_7.PNG)
+
+Link to Assignment A3 in PDF:
+
+[Terrabayt_Assignment_A3_wo_appendix.pdf](uploads/8ce7f7dd4ba4a92510aa825e1c4a9f08/Terrabayt_Assignment_A3_wo_appendix.pdf)
+
+Link to the final Rhino and Grasshopper script:
+
+[karamba_script_25.10.18.3dm](uploads/adba033099a5087a9fc584317a5fef63/karamba_script_25.10.18.3dm)
+
+[karamba_script_22.10.18.gh](uploads/007fc772aff1714859d6c8e8dbaafb8b/karamba_script_22.10.18.gh)
+
+Link to the DIANA FEA files:
+
+[Terrabayt_Analysis_A.dpf](uploads/775d7885dc36e31f8d1e3578c5fd5d7a/Terrabayt_Analysis_A.dpf)
+
+[Terrabayt_Analysis_B.dpf](uploads/83ee63e1464ea3ee5a34a8b20523800c/Terrabayt_Analysis_B.dpf)
+
+[Terrabayt_Analysis_C.dpf](uploads/f71ef400128281315da578dde0805444/Terrabayt_Analysis_C.dpf)
+
+
+## Process
+The results from our brick testing report are firstly compared with values from literature that we have determined to use in our design. Based on conclusions from the comparison the procedural structural design of Terrabayt is conducted in Karamba 3D and DIANA FEA for gravity, sand, wind and earthquake loads. Finally, the constructability of the project is explained step by step in various diagrams.
+
+_2: Structural design flowchart_
+![Flowchart](uploads/acff8ba4890da12586df9571f069697d/Flowchart.png)
+
+## Brick Test Values vs Design Values
+Values from our bricks testing were substaintially lower than values found in literature. Although the compressive stress was a factor 2 less, the Elastic and Shear Moduli were a factor 10 smaller. Therefore, we selected a brick that is on the lower end of the spectrum from values found in literature. The final values were based off Colonel Debes'
+values for a poor clayey mixture: 20% clay, 80% mixed sand and 1% added straw for workability and plasticity. 
+
+_3: Values from our brick tests and from literature that we eventually used_
+![Image_1](uploads/2a6ccd7c9aa6cac321302fd5b6bb17bf/Image_1.PNG)
+![Image_2](uploads/de200800131c2e395834f242489d950b/Image_2.PNG)
+
+_4: Values from Colonel Debes' brick testing_
+![Image_3](uploads/a2d06371471c5424a234fcfd4a1725ba/Image_3.PNG)
+
+
+## Structural Design
+The structural design was based on our plan script that defines the boundary and necessary height of each space. A circumscribed circle was created from that plan and relaxed using Kangaroo. The resulting paraboloids were unified and tested in Karamba for gravity, sand and wind. The shape is optimized in Karamba for minimal stresses after which the openings are
+added and the geometry is tested again and compared to a model tested in DIANA FEA. The DIANA model is also subjected to earthquake loads equaling 0.33G of PGA.
+
+_5: Maximum allowable deflections and load cases_
+![Image_4](uploads/bd81f7ecf7e6eda2baf237a9fe83de55/Image_4.PNG)
+![Image_5](uploads/f268005ae885e022fd67f9c99943f26e/Image_5.PNG)
+
+_6: Maximum allowable deflections_
+![D1](uploads/26328c410817babe689afdb8ae8a8352/D1.PNG)
+![D2](uploads/e51db2a30a3cd5caa803d45ec04f6931/D2.PNG)
+![D6](uploads/e9edfc592cb422f3a710a485a6b4c68a/D6.PNG)
+
+_7: Force flow diagram_
+![D3](uploads/40d915db3bd9f9dfa19575c31b8837ac/D3.PNG)
+
+_8: Forces acting on the structure_
+![D4](uploads/db50e29390b1eb121e4c43097ca72d61/D4.PNG)
+
+_9: Stability issues for especially the courtyard wall_
+![D5](uploads/8bb03c0d936487afc210c2a3cfbaeb03/D5.PNG)
+
+## Results
+Our design performed within recommended parameters for stresses, deformations and stability for all load cases. This was the case thanks to the relatively regular and highly supported geometry. Tensile stresses were high in sharp mesh connections, but this is a limitation of the meshing as in reality there will be no sharp edges as they are filled out with adobe. Stresses round openings were limited as well, with the most critical part being the supports and the risk of out-of-plane failure of the courtyard wall. However, even that is not an issue due to adequate retaining of the interior walls.
+
+_10: Difference between Karamba and DIANA FEA_
+![Image_6](uploads/73f35bdbbe18fa0de883e8316b63529c/Image_6.PNG)
+
+
+_11: Differences between assuming supports to be fixed or pinned_
+![Image_8](uploads/55e6e9b858096cdc734639b8d7e782c2/Image_8.PNG)
+
+
+_12: Final results for stresses, strains and deformations from DIANA per load case and Unity Checks_
+![Image_9](uploads/4ee9345375045bbb462c091162db6fcf/Image_9.PNG)
+
+_13: Loading in Karamba (left) and DIANA (right)_
+![Image_10](uploads/2855aab332ba59c62da5487f62689ab6/Image_10.PNG)
+
+_14: Comparison between deflection results from Karamba (above) and DIANA (below)_
+![Image_11](uploads/d0544277030af8458869c9f53a72c0b8/Image_11.PNG)
+![Image_12](uploads/c84a4e3ecfca3c3d5000a46258246758/Image_12.PNG)
+
+## Constructibility
+We propose the structure to be laid layer by layer with clear instructions that come as an output of our 3D file. These instructions are summarized in an instructions booklet and are all doable with local tools and materials.
+
+_15: Assembly Instructions_
+![C1](uploads/403598ef083db2bd97ee54307ff44ec1/C1.PNG)
+![C2](uploads/abf138a8710c27c8c193750098645d90/C2.PNG)
+![C3](uploads/676e8b2c40dab169a564c8274eb94a15/C3.png)
+![C4](uploads/c2090d55b381ee0eee83004be7052c75/C4.png)
+![C5](uploads/e8f72486072aea306114a0dbd3016312/C5.PNG)
+![C6](uploads/9805f612cb46365c0d4694a2c7c43cd5/C6.PNG)
+![C7](uploads/b1c8368dfda38ded2dc32b7b3819492a/C7.PNG)
+![C8](uploads/82d95189fb70628bf5ab0bfa55d652e2/C8.PNG)
+![C9](uploads/df115e9f5a2c6c600b32e86bc7bdef70/C9.PNG)
+![C10](uploads/6737038cf7de7c1703f66deae98e4215/C10.png)
+![C11](uploads/cb23d407d9788646bf4e7c721b2fb9f8/C11.PNG)
+
+## Appendix: DIANA FEA results
+![Appendix_A_Page_1](uploads/fd74a5fdf2c91e3ceef346f4c5e3e304/Appendix_A_Page_1.png)
+![Appendix_A_Page_2](uploads/acb12721ff260f1bd67b863dd17cac9f/Appendix_A_Page_2.png)
+![Appendix_A_Page_3](uploads/cab2f082dee32cd9b37bf1ca863b2524/Appendix_A_Page_3.jpg)
+![Appendix_A_Page_4](uploads/1c4582c269746d3f7035cc640a6b5d54/Appendix_A_Page_4.jpg)
+![Appendix_A_Page_5](uploads/6a86d74f8b799f09136d3433153ca1af/Appendix_A_Page_5.jpg)

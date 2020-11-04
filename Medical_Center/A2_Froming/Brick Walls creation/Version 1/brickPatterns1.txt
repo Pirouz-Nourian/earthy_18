@@ -1,0 +1,15 @@
+INSTRUCTIONS
+
+This script attempts to create a brick wall based on the chosen pattern (English bond).
+This wall is created in such a way that, when rotated by 90 degrees and shifted vertically by a row, it fits with the existing wall (protrusion on the left side, intrusion on the right side).
+The openings (defined by a list of closed curves) are created by subtraction, thus they are not always constructible.
+
+As for the coding itself, the script creates contour curves on the given surfaces, using a distance equal to the brick length.
+Each contour curve is split in half, and divided in units of length equal to one quarter of the brick length, starting from the midpoint.
+In this way, symmetry is achieved.
+The index of each (half curve) indicated its position in the pattern. Even indices correspond to left half curves, whereas odd ones correspond to right half curves.
+Furthermore, the curves with index that, when divided by 4, produces a remainder of 0 or 1, are called "even" and correspond to the "long bricks" part of the pattern.
+The rest of the curves (with index that, when divided by 4, produces a remainder of 2 or 3) are called "odd" and correspond to the "short bricks (headers)" part of the pattern.
+These indices are evaluated with the help of a counter that follows the nested loop.
+
+Rhino file not needed.
