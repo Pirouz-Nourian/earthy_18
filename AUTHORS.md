@@ -3,13 +3,13 @@
 ### Framework and Structure
 * Pirouz Nourian
 ### Instruction
-* Sevil Sariyildiz
-* Fred Veer
 * Pirouz Nourian
 * Shervin Azadi
 * Hans Hoogenboom
 * Frank Schnater
 * Dirk Rinze Visser
+* Fred Veer
+* Sevil Sariyildiz
 ## Student Projects
 ### Earth Institute
 * Ameya Thakur
