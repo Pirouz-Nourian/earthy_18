@@ -10,7 +10,6 @@
 * Frank Schnater
 * Dirk Rinze Visser
 * Fred Veer
-
 ## Student Projects
 ### Earth Institute
 * Ameya Thakur
