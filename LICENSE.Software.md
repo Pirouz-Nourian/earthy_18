@@ -3,7 +3,7 @@ MIT License
 Copyright (c) 2018 Earthy 2018 Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of the software part of this project, to deal
+of the software part of this project, which include code snippets, procedural workflows, and their combinations, to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
