@@ -184,3 +184,10 @@ optimization in:
     performance;
 -   Structuring: designing the construction process of an earth building
     for a zero-waste circular construction process
+    
+### License
+
+This work is dual-licensed under MIT and 4.0-CC-BY. The Software is 
+licensed under MIT and all other contents are licensed under 4.0-CC-BY.
+Each student project has different authors, please reffer to AUTHOR file 
+for detailed list of authors per project.
