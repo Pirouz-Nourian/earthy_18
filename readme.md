@@ -95,7 +95,8 @@ tackled via computation.
             <td>
                 Anna Tsagkalou<br>
                 Andri Lysandrou<br>
-                Ginevra Nazzarri Ivan Avdić<br>
+                Ginevra Nazzarri<br>
+                Ivan Avdić<br>
                 Momir Nikolić<br>
                 Okan Turkcan
             </td>
