@@ -36,7 +36,7 @@ tackled via computation.
         <tr>
             <td>Instructors</td>
             <td>
-                <a href="mailto:i.s.sariyildiz@tudelft.nl">Prof. Dr. Ir. Sevil Sariyildiz</a> (TU Delft, Design Informatics, SSZ)<br>
+                
                 <a href="mailto:FAVeer@tudelft.nl">Dr. Ir. Fred Veer</a> (TU Delft, Structural Design &amp; Mechanics-FVR)<br>
                 <a href="mailto:p.nourian@tudelft.nl">Dr. Ir. Pirouz Nourian</a> (TU Delft, Design Informatics, PZN)<br>
                 <a href="mailto:S.Azadi-1@tudelft.nl">Ir. Shervin Azadi</a> (TU Delft, Design Informatics, SAZ)<br>
