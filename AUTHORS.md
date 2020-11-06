@@ -17,6 +17,14 @@
 
 ## Student Projects
 
+### Communal Housing
+
+* Felix van der Weijst
+* Gautam Tanwar
+* Hayley Bouza
+* Idil Gumruk
+* Ujjwal Dawar
+
 ### Earth Institute
 
 * Ameya Thakur

@@ -53,6 +53,18 @@ tackled via computation.
     <tbody>
         <tr>
             <td>
+                <a href="https://github.com/shervinazadi/earthy_18/tree/master/Communal_Housing">Communal Housing</a>
+            </td>
+            <td>
+                Felix van der Weijst<br>
+                Gautam Tanwar<br>
+                Hayley Bouza<br>
+                Idil Gumruk<br>
+                Ujjwal Dawar<br>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <a href="https://github.com/shervinazadi/earthy_18/tree/master/Earth_Institute">Earth Institute</a>
             </td>
             <td>
