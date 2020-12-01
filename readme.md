@@ -1,7 +1,5 @@
 This is an eBook containing the final reports and the procedures developed by Earthy students in 2018, edited by Shervin Azadi and Pirouz Nourian.
-Cite as:
-
-Shervin Azadi, & Pirouz Nourian. (2020, November 30). Pirouz-Nourian/earthy_18: Earthy_2018_1.0 (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.4297480 
+Citation Info:
 
 [![DOI](https://zenodo.org/badge/310127685.svg)](https://zenodo.org/badge/latestdoi/310127685)
 
