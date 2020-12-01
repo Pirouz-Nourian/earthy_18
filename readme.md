@@ -1,3 +1,4 @@
+This is an eBook containing the final reports and the procedures developed by Earthy students in 2018, edited by Shervin Azadi and Pirouz Nourian.
 [![DOI](https://zenodo.org/badge/310127685.svg)](https://zenodo.org/badge/latestdoi/310127685)
 
 # [AR3B011](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48158&_NotifyTextSearch_): Earthy: MSc3 Design Studio 2018-19
