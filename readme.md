@@ -44,12 +44,11 @@ tackled via computation.
                 <a href="mailto:Dirk%20Visser%20-%20BK">Ir. Dirk Rinze Visser</a> (Buro Happold &amp; TU Delft, Structural Design &amp; Mechanics -DRZ)<br>
                 <a href="mailto:FAVeer@tudelft.nl">Dr. Ir. Fred Veer</a> (TU Delft, Structural Design &amp; Mechanics-FVR)<br>
             </td>
-           </tr>
+        </tr>
         <tr>
             <td>Responsible</td>
             <td><a href="mailto:i.s.sariyildiz@tudelft.nl">Prof. Dr. Ir. Sevil Sariyildiz</a> (TU Delft, Design Informatics, SSZ)</td>
         </tr>
-        
     </tbody>
     <thead>
         <tr class="header">
