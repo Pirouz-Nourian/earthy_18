@@ -44,7 +44,6 @@ tackled via computation.
                 <a href="mailto:Dirk%20Visser%20-%20BK">Ir. Dirk Rinze Visser</a> (Buro Happold &amp; TU Delft, Structural Design &amp; Mechanics -DRZ)<br>
                 <a href="mailto:FAVeer@tudelft.nl">Dr. Ir. Fred Veer</a> (TU Delft, Structural Design &amp; Mechanics-FVR)<br>
             </td>
-        </tr>
         
     </tbody>
     <thead>
